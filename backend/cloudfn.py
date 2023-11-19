@@ -3,6 +3,7 @@ import os
 from google.cloud.sql.connector import Connector
 import sqlalchemy
 from sentence_transformers import SentenceTransformer
+from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
 
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
@@ -36,7 +37,7 @@ def embed_query(query):
 def fetch_k_nearest(embedded_query, k):
     select = sqlalchemy.text(
         """
-        SELECT context FROM legislation_vector_db_003
+        SELECT file_name, context FROM legislation_vector_db_003
         ORDER BY embedding <-> (:embedding)
         LIMIT (:limit)
         """
@@ -44,15 +45,31 @@ def fetch_k_nearest(embedded_query, k):
 
     pool = getpool()
     with pool.connect() as db_conn:
-        return db_conn.execute(
+        result = db_conn.execute(
             select, parameters={"embedding": embedded_query, "limit": k}
         ).fetchall()
 
+    return [str({str(row[0]): str(row[1])}) for row in result]
+
+
 def prompt(query, context):
-    
+    input = f"""
+        \n\nHuman: Here is my question: {query};
+        Here is some context and data for you to
+        answer my question with- when answering,
+        please be sure to reference this data exactly.
+        Always include the file name (txt) key. Context: 
+        {context}\n\nAssistant:
+        """
+
+    anthropic = Anthropic(api_key=CLAUDE_KEY)
+    return anthropic.completions.create(
+        model="claude-2", max_tokens_to_sample=5000, prompt=input
+    )
+
 
 @functions_framework.http
-def hello_http(request):
+def answer_query(request):
     """HTTP Cloud Function.
     Args:
         request (flask.Request): The request object.
