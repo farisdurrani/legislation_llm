@@ -1,0 +1,315 @@
+{
+    "bills": [
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Placed on the Union Calendar, Calendar No. 220."
+            },
+            "number": "5283",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Protecting our Communities from Failure to Secure the Border Act of 2023",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T18:30:55Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/5283?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "actionTime": "09:11:06",
+                "text": "Held at the desk."
+            },
+            "number": "3000",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Armenian Protection Act of 2023",
+            "type": "S",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:14:25Z",
+            "url": "https://api.congress.gov/v3/bill/118/s/3000?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "actionTime": "09:10:53",
+                "text": "Held at the desk."
+            },
+            "number": "1510",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "GAO Inspector General Parity Act",
+            "type": "S",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:14:25Z",
+            "url": "https://api.congress.gov/v3/bill/118/s/1510?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "actionTime": "09:10:45",
+                "text": "Held at the desk."
+            },
+            "number": "106",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Commitment to Veteran Support and Outreach Act",
+            "type": "S",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:14:25Z",
+            "url": "https://api.congress.gov/v3/bill/118/s/106?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Veterans' Affairs."
+            },
+            "number": "6452",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend title 38, United States Code, to establish in the Department of Veterans Affairs a Veterans Scam and Fraud Evasion Officer, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:36Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6452?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Transportation and Infrastructure."
+            },
+            "number": "6448",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To require the Administrator of the Federal Aviation Administration to conduct a study to compare the effects of allowing certain aircraft certified under part 23 of title 14, Code of Federal Regulations, to operate under part 121 of such title, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:36Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6448?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, Financial Services, Oversight and Accountability, Ways and Means, Armed Services, and Intelligence (Permanent Select), for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "6453",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To require reports on and impose sanctions with respect to Iran's development of space-launch vehicles, intercontinental ballistic missiles, and unmanned aerial systems, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:36Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6453?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Transportation and Infrastructure."
+            },
+            "number": "6450",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To provide for a National Disaster Safety Board, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:36Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6450?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Education and the Workforce."
+            },
+            "number": "876",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Expressing support for a whole child approach to education and recognizing the role of parents, educators, and community members in providing a whole child approach to education for each student.",
+            "type": "HRES",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T18:30:55Z",
+            "url": "https://api.congress.gov/v3/bill/118/hres/876?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "6451",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the Public Health Service Act to authorize grants to States, Indian Tribes, Tribal organizations, and political subdivisions thereof to hire, employ, train, and dispatch mental health professionals to respond in lieu of law enforcement officers in emergencies involving one or more persons with a mental illness or an intellectual or developmental disability, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:36Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6451?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on the Judiciary."
+            },
+            "number": "6456",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To direct the National Institute of Justice to collect, study, and analyze data on incidents in which children have been seriously harmed or killed by law enforcement officers who were acting in their capacity as law enforcement officers.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:37Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6456?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "6445",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend title XVIII of the Social Security Act to improve coverage of audiology services under the Medicare program, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:36Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6445?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Ways and Means."
+            },
+            "number": "6454",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the Internal Revenue Code of 1986 to repeal the excise taxes on taxable chemicals and taxable substances.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:37Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6454?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Education and the Workforce."
+            },
+            "number": "875",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Expressing support for the goals of National Adoption Day and National Adoption Month by promoting national awareness of adoption and the children awaiting families, celebrating children and families involved in adoption, and encouraging the people of the United States to secure safety, permanency, and well-being for all children.",
+            "type": "HRES",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T18:30:55Z",
+            "url": "https://api.congress.gov/v3/bill/118/hres/875?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on the Judiciary."
+            },
+            "number": "879",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Expressing support for the designation of November 20, 2023, through December 20, 2023, as \"National Survivors of Homicide Victims Awareness Month\".",
+            "type": "HRES",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T18:30:54Z",
+            "url": "https://api.congress.gov/v3/bill/118/hres/879?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Education and the Workforce."
+            },
+            "number": "77",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Expressing support for the designation of the week of November 13 through November 19, 2023, as \"National Caregiving Youth Week\" to raise awareness and encourage national recognition of children and adolescents under 18 years of age who serve as a primary or secondary caregiver for family or household members.",
+            "type": "HCONRES",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T18:30:54Z",
+            "url": "https://api.congress.gov/v3/bill/118/hconres/77?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Ethics."
+            },
+            "number": "878",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Providing for the expulsion of Representative George Santos from the United States House of Representatives.",
+            "type": "HRES",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T18:30:55Z",
+            "url": "https://api.congress.gov/v3/bill/118/hres/878?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "6455",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To establish the Global Climate Change Resilience Strategy, to authorize the admission of climate-displaced persons into the United States, and for other purposes.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:37Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6455?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Oversight and Accountability."
+            },
+            "number": "877",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Condemning Mayor Muriel Bowser, Council Chair Phil Mendelson, Councilman Charles Allen, and the rest of the government of the city of Washington, DC, for their failure to stop the crime epidemic plaguing their city.",
+            "type": "HRES",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T18:30:54Z",
+            "url": "https://api.congress.gov/v3/bill/118/hres/877?format=json"
+        },
+        {
+            "congress": 118,
+            "latestAction": {
+                "actionDate": "2023-11-17",
+                "text": "Referred to the House Committee on Agriculture."
+            },
+            "number": "6449",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "To amend the Department of Agriculture Reorganization Act of 1994 to reauthorize the Office of Urban Agriculture and Innovative Production.",
+            "type": "HR",
+            "updateDate": "2023-11-18",
+            "updateDateIncludingText": "2023-11-18T08:15:36Z",
+            "url": "https://api.congress.gov/v3/bill/118/hr/6449?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 402558,
+        "next": "https://api.congress.gov/v3/bill?offset=20&limit=20&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
